@@ -374,7 +374,7 @@ section .title::after {
   width: 80%;
 }
 
-/* teams section styling */
+/* projects section styling */
 .teams .title::after {
   content: "my projects";
 }
@@ -535,14 +535,6 @@ section .title::after {
   background: none;
 }
 
-/* footer section styling */
-footer {
-  background: #111;
-  padding: 15px 23px;
-  color: #fff;
-  text-align: center;
-}
-
 /* responsive media query start */
 @media (max-width: 1300px) {
   .home .max-width {
@@ -671,4 +663,15 @@ footer {
     font-size: 23px;
     line-height: 38px;
   }
+}
+
+/* CV styling */
+#header {
+  display: flex;
+  background: url("images/background2.jpg") no-repeat center;
+  height: 100vh;
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
 }
