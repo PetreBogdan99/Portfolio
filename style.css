@@ -217,6 +217,10 @@ section .title::after {
   content: "who i am";
   color: black;
 }
+.about .title2::after {
+  content: "something about me";
+  color: black;
+}
 .about .about-content .left {
   width: 45%;
 }
@@ -666,12 +670,13 @@ section .title::after {
 }
 
 /* CV styling */
-#header {
-  display: flex;
-  background: url("images/background2.jpg") no-repeat center;
-  height: 100vh;
-  color: #fff;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: "Ubuntu", sans-serif;
+.work {
+  margin: auto 0 auto 30px;
+}
+.work .cvtitle {
+  font-size: 50px;
+  color: #1bcf78;
+}
+.work p {
+  font-size: 40px;
 }
