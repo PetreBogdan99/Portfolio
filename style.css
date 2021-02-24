@@ -9,6 +9,31 @@
 html {
   scroll-behavior: smooth;
 }
+.send-message {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 700;
+  background: #1bcf78;
+  border-radius: 20px;
+  box-shadow: 20px 16px 12px -5px rgba(143, 136, 143, 1);
+  border: none;
+  outline: none;
+}
+
+.send-message:hover {
+  transform: translateX(2px);
+}
+.send-message:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+.get-in-touch {
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  padding: 50px;
+}
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
